@@ -1,0 +1,32 @@
+:root {
+  --font: 'PT Sans', sans-serif;
+  --main-font-size: 16px;
+  --main-line-hieght: 1.5;
+  --text-color: #1976d2;
+  --text-color-hover: #ff4081;
+}
+/* * {
+  margin: 0;
+  /* padding: 0;}
+   */
+
+.social-networks {
+  font-family: var(--font);
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hieght);
+  font-weight: 400;
+  color: var(--text-color);
+}
+.header {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.social-list li:hover .link,
+.social-list li:focus .link {
+  color: var(--text-color-hover);
+  text-decoration: underline;
+}
