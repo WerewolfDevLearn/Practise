@@ -1,0 +1,55 @@
+:root {
+  --font: 'Roboto', sans-serif;
+  --main-font-size: 16px;
+  --logo-font-size: 18px;
+  --main-line-hieght: 1.5;
+  --text-color: #212121;
+  --text-color-hover: #2196f3;
+}
+
+body {
+  font-family: var(--font);
+  font-size: var(--main-font-size);
+  font-weight: 400;
+  line-height: var(--main-line-hieght);
+  color: var(--text-color);
+}
+.flex{
+  display:flex;
+  align-items: center;
+}
+
+
+.navigation {
+  list-style-type: none;
+  text-decoration: none;
+  display:flex;
+  align-items: center;
+  
+}
+.navigation a {
+  text-decoration: inherit;
+  color: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.logo {
+  display: block;
+  font-size: var(--logo-font-size);
+  padding-right:227px ;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--text-color-hover);
+}
+.navigation__item{
+  margin-left:12px;
+}
+.navigation__item:nth-child(1){
+  margin-left: 0px;
+}

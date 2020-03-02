@@ -1,0 +1,14 @@
+.list-item{
+    display:block;
+    vertical-align:center;
+    height: 30px;
+    padding-left: 12px;
+}
+.list-item:nth-child(2n+1){
+    background-color:#ff4081 ;
+}
+.list-item:nth-child(2n+2){
+    background-color:#ff9800 ;
+}.list-item:nth-child(3n){
+    background-color:#4caf50 ;
+}
