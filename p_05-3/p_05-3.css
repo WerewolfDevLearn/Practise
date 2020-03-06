@@ -1,0 +1,11 @@
+body{
+    height: 100vw;
+    width: 100vw;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+    url(./images/task-03-image.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}

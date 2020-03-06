@@ -1,0 +1,10 @@
+.link::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding-right: 4px;
+    background-image: url('./images/download.svg');
+    background-repeat: no-repeat;
+}
